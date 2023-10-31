@@ -1,0 +1,44 @@
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional: add a shadow for a better look */
+    padding: 20px; /* space inside the container */
+   /* background-color: #f7f7f7; /* a light background for the container */
+   overflow-x: auto;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;  /* default font */
+    margin: 0;
+
+}
+    tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+    
+    td:first-child {
+        text-align: left;  /* Align team names to the left */
+    }
+    th, td {
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+    tbody tr:hover {
+        background-color: #e0e0e0;
+    }
+    thead {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    
+    
