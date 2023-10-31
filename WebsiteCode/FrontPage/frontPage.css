@@ -1,0 +1,78 @@
+ /* Reset default styles and set height to 100% for both html and body */
+ html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Use flexbox for body to ensure child elements occupy full height */
+body {
+    display: flex;
+    flex-direction: column; /* Arrange child elements vertically */
+    align-items: center; /* This will center horizontally */
+    justify-content: center; /* This will center vertically */
+
+    background-image: url('basketballGame.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    color: rgb(30, 255, 0);
+    background-color: rgba(0, 0, 255, 0.7); /* Semi-transparent blue */
+    padding: 20px 40px; /* Vertical and horizontal padding */
+    border: 3px solid rgba(255, 255, 255, 0.8); /* White border with some transparency */
+    border-radius: 15px; /* Rounded corners */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+    letter-spacing: 2px; /* Space between letters */
+    text-transform: uppercase; /* Making text all caps for emphasis */
+    flex: 0 1 auto;
+    margin-bottom: 20px;
+    
+}
+
+/* Style the button to look like a link */
+.button-link {
+    margin-bottom: auto;
+    background: none;
+    border: none;
+    color: rgb(30, 255, 0);
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.7); /* Semi-transparent blue */
+    padding: 20px 40px; /* Vertical and horizontal padding */
+    border: 3px solid rgba(255, 255, 255, 0.8); /* White border with some transparency */
+    border-radius: 15px; /* Rounded corners */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+    letter-spacing: 5px; /* Space between letters */
+    text-transform: uppercase; /* Making text all caps for emphasis */
+    font-size: 50px;
+    margin-top: 75px;
+}
+.button-link:hover {
+    background-color: rgba(0, 0, 255, 0.9); /* Slightly darker blue when hovered */
+    color: rgb(255, 255, 255); /* White text color when hovered */
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.basketball{
+    width: 150px; /* Adjust this value as per your requirement */
+    height: auto; 
+    display: block;
+    margin: 20px auto; /* This will center the image horizontally */
+    animation: spin 5s linear infinite;
+}
+
+
