@@ -1,6 +1,6 @@
 [
-    {"Player Name": "...", "Age": 75, "jersey number": 90},
-    {"Player Name": "...", "Age": 87, "jersey number": 87}
+    {"Player Name": "Aaron Holiday", "Age": 27, "Jersey Number": 3,"Weight": 185, "Height": "6 ft" , "Drving Layup": 75 , "Three-point" : 80 , "Paint Defensive" : 65 , "Permeter Defense": 85, "Close Shot": 65, "Midrange": 75,"Defensive Rebound" : 50 ,"Offensive Rebound": 40 , "Passing" : 70 ,"Post Move": 50 , "Steals": 75 , "Free Throws": 85, "Draw Fouls":75 , "Blocks": 60, "Spot Up Three-Point": 80 ,"Pull Up Three-Point":75 ,"Spot Up Midrange": 77, "Pull Up Midrange":80 , "Offensive IQ" : 80 , "Cutting" : 75 , "Defensive IQ" : 85, "Consistency": 75 , "Two-Point Efficiency": 70 , "Potential": 75 , "Injury" : 90, "Speed":85 , "Acceleration" :80 , "Lateral Acceleration": 80 ,"Passing IQ": 75 , "Crossover Layup" :76 , "Hands" :80 , "Turnover":80 , "Cacthing Alley-Oop":70 , "Throwing Alley-Oop":75 , "Drving Dunks":70 , "Close Dunks": 60, "Vertical" : 75 ,"Winning Play": 85 , "Stamina" : 100, "Team Play": 85 , "Basketball IQ" :77 , "Post Defensive": 70 , "Post Move FootWork" : 70 , "Basketball Average": 74   },
+    {"Player Name": "...", "Age": 87, "Jersey Number": 87}
    
 ]
   

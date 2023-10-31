@@ -1,8 +1,9 @@
- /* Reset default styles and set height to 100% for both html and body */
- html, body {
+/* Reset default styles and set height to 100% for both html and body */
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-size: 16px; /* Base font-size for better scalability on different devices */
 }
 
 /* Use flexbox for body to ensure child elements occupy full height */
@@ -20,44 +21,42 @@ body {
 
 .title {
     text-align: center;
-    font-size: 100px;
+    font-size: 6rem; /* Use relative units for scalability */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0;
     color: rgb(30, 255, 0);
-    background-color: rgba(0, 0, 255, 0.7); /* Semi-transparent blue */
-    padding: 20px 40px; /* Vertical and horizontal padding */
-    border: 3px solid rgba(255, 255, 255, 0.8); /* White border with some transparency */
-    border-radius: 15px; /* Rounded corners */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
-    letter-spacing: 2px; /* Space between letters */
-    text-transform: uppercase; /* Making text all caps for emphasis */
-    flex: 0 1 auto;
-    margin-bottom: 20px;
-    
+    background-color: rgba(0, 0, 255, 0.7);
+    padding: 1.25rem 2.5rem; /* Use relative units for padding */
+    border: 0.1875rem solid rgba(255, 255, 255, 0.8);
+    border-radius: 0.9375rem;
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    margin-top: 10rem; 
+    margin-bottom: 1.25rem;
 }
 
-/* Style the button to look like a link */
 .button-link {
-    margin-bottom: auto;
     background: none;
     border: none;
     color: rgb(30, 255, 0);
     text-decoration: underline;
     cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.7); /* Semi-transparent blue */
-    padding: 20px 40px; /* Vertical and horizontal padding */
-    border: 3px solid rgba(255, 255, 255, 0.8); /* White border with some transparency */
-    border-radius: 15px; /* Rounded corners */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
-    letter-spacing: 5px; /* Space between letters */
-    text-transform: uppercase; /* Making text all caps for emphasis */
-    font-size: 50px;
-    margin-top: 75px;
+    background-color: rgba(0, 0, 255, 0.7);
+    padding: 1.25rem 2.5rem;
+    border: 0.1875rem solid rgba(255, 255, 255, 0.8);
+    border-radius: 0.9375rem;
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.3125rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 4.6875rem;
 }
+
 .button-link:hover {
-    background-color: rgba(0, 0, 255, 0.9); /* Slightly darker blue when hovered */
-    color: rgb(255, 255, 255); /* White text color when hovered */
+    background-color: rgba(0, 0, 255, 0.9);
+    color: rgb(255, 255, 255);
 }
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -67,12 +66,40 @@ body {
     }
 }
 
-.basketball{
-    width: 150px; /* Adjust this value as per your requirement */
-    height: auto; 
+.basketball {
+    width: 9.375rem;
+    height: auto;
     display: block;
-    margin: 20px auto; /* This will center the image horizontally */
+    margin: 1.25rem auto;
     animation: spin 5s linear infinite;
 }
-
+@media (max-width: 1366px) {
+    .title {
+        font-size: 3rem; /* Adjust this value as needed */
+    }
+    
+    .basketball {
+        width: 8rem;
+        height: auto;
+        display: block;
+        margin: 1.25rem auto;
+        
+    }
+    .button-link {
+        background: none;
+        border: none;
+        color: rgb(30, 255, 0);
+        text-decoration: underline;
+        cursor: pointer;
+        background-color: rgba(0, 0, 255, 0.7);
+        padding: 1.25rem 2.5rem;
+        border: 0.1875rem solid rgba(255, 255, 255, 0.8);
+        border-radius: 0.9375rem;
+        text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+        letter-spacing: 0.3125rem;
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin-top: 4.6875rem;
+    }
+}
 
