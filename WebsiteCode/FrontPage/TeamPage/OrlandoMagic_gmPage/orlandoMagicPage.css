@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.title{
+    text-align: center;
+}
+.button-link{
+    letter-spacing: 5px; /* Space between letters */
+    text-transform: uppercase; /* Making text all caps for emphasis */
+    font-size: 40px;
+    margin-right: 50px;
+}
+.button-link:hover {
+    background-color: rgba(0, 0, 255, 0.9); /* Slightly darker blue when hovered */
+    color: rgb(255, 255, 255); /* White text color when hovered */
+}
+/* For screens with a maximum width of 1366px (typical laptop) */
+@media (max-width: 1366px) {
+    .button-link{
+        letter-spacing: 2.5px; /* Space between letters */
+        text-transform: uppercase; /* Making text all caps for emphasis */
+        font-size: 20px;
+        margin-right: 15px;
+    }
+}
